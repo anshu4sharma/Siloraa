@@ -4,7 +4,7 @@
     overflow-y: hidden;
     /* width: 400px; */
     width: 80vw;
-    height: 400px;
+    height: 600px;
     /* border: 1px solid blue; */
 }
 
@@ -22,7 +22,8 @@
     height: 350px;
     display: inline-block;
     margin: 5px;
-    border: 1px solid red;
+    /* border: 2px solid red; */
+
 
 
 }
@@ -36,5 +37,36 @@
     /* flex-direction: column; */
 
 }
+
+
+
+.card ul{
+
+    display: flex;
+flex-direction: column;
+gap: 40px;
+align-items: center;
+    color: white;
+    
+}
+
+
+
+::-webkit-scrollbar{
+
+    width: 0;
+}
+
+
+
+
+.card img{
+
+    /* width: 101px; */
+
+margin: 40px;    
+}
+
+
 
 

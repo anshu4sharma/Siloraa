@@ -13,8 +13,9 @@ const Navbar = () => {
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
-          <NavLink to="/">
+          <NavLink to="/"  style={{textDecoration:"none"}}>
             {/* <img src={logo} alt="img" /> */}
+          <h2 style={{color:"white", }} >  Siloraa</h2>
           </NavLink>
         </div>
 

@@ -1,5 +1,7 @@
 import React from "react";
 import "./Roadmap.css";
+import line from './line.png'
+
 function Roadmap() {
 
 
@@ -8,10 +10,12 @@ function Roadmap() {
     <div className="maien">
 
       <div class="outer">
+
+      <h1>Roadmap</h1>
         <div class="flex-container" id="flex-container">
           <div class="card">
 
-
+          <img src={line} alt="" />
           <ul>
                 <p>Phase 1</p>
                 <li>Idea</li>
@@ -20,10 +24,14 @@ function Roadmap() {
                 <li>Website launched</li>
                 <li>Social media setup</li>
               </ul>
+              <img src={line} alt="" />
 
              
           </div>
-          <div class="card"> <ul>
+          <div class="card">
+          <img src={line} alt="" />
+          
+           <ul>
                 <p>Phase 2</p>
                 <li>Create NFT's</li>
                 <li>NFT's List On Opensea Plateform</li>
@@ -31,23 +39,55 @@ function Roadmap() {
                 <li> Public NFT minting On Opensea</li>
                 <li> Snapshot (Early Nft Holder's)</li>
               </ul>
-              <ul>
-                <p>Phase 2</p>
-                <li>Create NFT's</li>
-                <li>NFT's List On Opensea Plateform</li>
-                <li>Airdrop NFT's for early users</li>
-                <li> Public NFT minting On Opensea</li>
-                <li> Snapshot (Early Nft Holder's)</li>
-              </ul>
+          <img src={line} alt="" />
+             
               </div>
-          <div class="card">card 3</div>
-          <div class="card">card 4</div>
-          <div class="card">card 5</div>
-          <div class="card">card 6</div>
-          <div class="card">card 7</div>
-          <div class="card">card 8</div>
-          <div class="card">card 9</div>
-          <div class="card">card 10</div>
+          <div class="card">
+          <img src={line} alt="" />
+          
+           <ul>
+                <p>Phase 3</p>
+                <li>Create NFT's</li>
+                <li>NFT's List On Opensea Plateform</li>
+                <li>Airdrop NFT's for early users</li>
+                <li> Public NFT minting On Opensea</li>
+                <li> Snapshot (Early Nft Holder's)</li>
+              </ul>
+              
+          <img src={line} alt="" />
+              
+              </div>
+          <div class="card"> 
+          <img src={line} alt="" />
+          
+          
+          <ul>
+                <p>Phase 4</p>
+                <li>Create NFT's</li>
+                <li>NFT's List On Opensea Plateform</li>
+                <li>Airdrop NFT's for early users</li>
+                <li> Public NFT minting On Opensea</li>
+                <li> Snapshot (Early Nft Holder's)</li>
+              </ul>
+          <img src={line} alt="" />
+              
+              </div>
+          <div class="card"> 
+          
+          <img src={line} alt="" />
+          
+          <ul>
+                <p>Phase 5</p>
+                <li>Create NFT's</li>
+                <li>NFT's List On Opensea Plateform</li>
+                <li>Airdrop NFT's for early users</li>
+                <li> Public NFT minting On Opensea</li>
+                <li> Snapshot (Early Nft Holder's)</li>
+              </ul>
+              
+          <img src={line} alt="" />
+              
+              </div>
         </div>
       </div>
       {/* <button onclick={clickLeft()}>left</button> */}
