@@ -27,19 +27,19 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <NavLink  onClick={()=>alert("!  Page Not Found")} to="/">Home</NavLink>
+              <NavLink   to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink onClick={()=>alert("!  Page Not Found")}  to="/">Roadmap</NavLink>
+              <a   href="#rodmpp">Roadmap</a>
             </li>
             <li>
-              <NavLink  onClick={()=>alert("!  Page Not Found")} to="/">Tokenomics</NavLink>
+              <a   href="#tokenmo">Tokenomics</a>
             </li>
             <li>
-              <NavLink  onClick={()=>alert("!  Page Not Found")} to="/">Upcoming Projects</NavLink>
+              <a   href="#community">Partners</a>
             </li>
             <li>
-              <NavLink onClick={()=>alert("!  Page Not Found")}  to="/">About us</NavLink>
+              <a   href="#community">Join us</a>
             </li>
           </ul>
         </div>

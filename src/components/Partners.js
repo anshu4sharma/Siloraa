@@ -9,7 +9,7 @@ function Partners() {
 
 <div id='inside_partner'>
 
-    <img src={partners} alt="img" id='part' />
+    <img loading='lazy' src={partners} alt="img" id='part' />
 </div>
 </div>
 

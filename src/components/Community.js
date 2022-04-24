@@ -3,7 +3,7 @@ import "./Community.css"
 
 const Community = () => {
   return (
-    <>
+    <div id='community'>
 
 <div className='community_page'>
 
@@ -42,7 +42,7 @@ const Community = () => {
 
 </div>
 
-    </>
+    </div>
   )
 }
 

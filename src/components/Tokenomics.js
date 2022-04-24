@@ -8,7 +8,7 @@ import summary from "./summary.png";
 import supply2 from "./supply2.png";
 function Tokenomics() {
   return (
-    <>
+    <div id="tokenmo">
       <h1 id="tok" style={{ color: "white", textAlign: "center" }}>
         Tokenomics
       </h1>
@@ -38,7 +38,7 @@ function Tokenomics() {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -7,7 +7,7 @@ function Roadmap() {
 
 
   return (
-    <div className="maien">
+    <div className="maien" id="rodmpp" >
 
       <div class="outer">
 
@@ -15,7 +15,7 @@ function Roadmap() {
         <div class="flex-container" id="flex-container">
           <div class="card">
 
-          <img src={line} alt="" />
+          <img loading="lazy" src={line} alt="" />
           <ul>
                 <p>Phase 1</p>
                 <li>Idea</li>
@@ -24,12 +24,12 @@ function Roadmap() {
                 <li>Website launched</li>
                 <li>Social media setup</li>
               </ul>
-              <img src={line} alt="" />
+              <img loading="lazy" src={line} alt="" />
 
              
           </div>
           <div class="card">
-          <img src={line} alt="" />
+          <img loading="lazy" src={line} alt="" />
           
            <ul>
                 <p>Phase 2</p>
@@ -39,11 +39,11 @@ function Roadmap() {
                 <li> Public NFT minting On Opensea</li>
                 <li> Snapshot (Early Nft Holder's)</li>
               </ul>
-          <img src={line} alt="" />
+          <img loading="lazy" src={line} alt="" />
              
               </div>
           <div class="card">
-          <img src={line} alt="" />
+          <img loading="lazy" src={line} alt="" />
           
            <ul>
                 <p>Phase 3</p>
@@ -54,11 +54,11 @@ function Roadmap() {
                 <li> Snapshot (Early Nft Holder's)</li>
               </ul>
               
-          <img src={line} alt="" />
+          <img loading="lazy" src={line} alt="" />
               
               </div>
           <div class="card"> 
-          <img src={line} alt="" />
+          <img loading="lazy" src={line} alt="" />
           
           
           <ul>
@@ -69,12 +69,12 @@ function Roadmap() {
                 <li> Public NFT minting On Opensea</li>
                 <li> Snapshot (Early Nft Holder's)</li>
               </ul>
-          <img src={line} alt="" />
+          <img loading="lazy" src={line} alt="" />
               
               </div>
           <div class="card"> 
           
-          <img src={line} alt="" />
+          <img loading="lazy" src={line} alt="" />
           
           <ul>
                 <p>Phase 5</p>
@@ -85,7 +85,7 @@ function Roadmap() {
                 <li> Snapshot (Early Nft Holder's)</li>
               </ul>
               
-          <img src={line} alt="" />
+          <img loading="lazy" src={line} alt="" />
               
               </div>
         </div>
