@@ -19,10 +19,9 @@
 .card {
     flex: 1 0 300px;
 
-    height: 350px;
+    height: 90%;
     display: inline-block;
     margin: 5px;
-    /* border: 2px solid red; */
 
 
 
@@ -69,7 +68,10 @@ margin: 40px;
 
 
 
+html{
 
+    scroll-behavior: smooth;
+}
 
 .outer h1{
 
@@ -77,3 +79,11 @@ margin: 40px;
   font-size: 3.1rem;
 }
 
+
+
+#rdmptext:active{
+
+    outline: none;
+    white-space: none
+    ;
+}
