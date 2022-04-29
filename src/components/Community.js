@@ -13,28 +13,28 @@ const Community = () => {
 
 <div className='social_icon'>
 <i class="fa-brands fa-facebook fa-2x " ></i>
-<a target='_blank' href="https://facebook.com/siloraa">
+<a target='_blank' href="">
 
 <span>Facebook</span>
 
 </a>
 <i class="fa-brands fa-twitter fa-2x  "></i>
-<a target='_blank'  href="https://twitter.com/siloraaofficial">
+<a target='_blank'  href="">
 <span>Twitter</span>
 
 </a>
 <i class="fa-brands fa-discord fa-2x "></i>
-<a target='_blank'  href="https://discord.gg/UaD8EHRSJK">
+<a target='_blank'  href="">
 
 <span>Discord</span>
 
 </a>
 <i class="fa-brands fa-telegram fa-2x "></i>
-<a target='_blank' href="https://t.me/siloraa">
+<a target='_blank' href="">
 <span>Telegram</span>
 </a>
 <i class="fa-brands fa-medium fa-2x "></i>
-<a target='_blank' href="https://medium.com/@siloraa">
+<a target='_blank' href="">
 <span>Medium</span>
 
 </a>
